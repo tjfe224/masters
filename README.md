@@ -28,11 +28,22 @@ Files analyzed:
 * Early 20th Century (1900-1949)            54 files (80.6%)
 * Late 19th Century (1850-1899)             10 files (14.9%)
 * Mid-Late 20th Century (1950-1989)          1 files ( 1.5%)
-* Total                                     67 files
+-------------------------------------------------------------
+  Total                                     67 files (100.0%)
 
 -----------
 Methodology 
 -----------
+Common errors found:
+    error_dict = {
+        'tlie': 'the', 'ilie': 'the', 'tbe': 'the', 'tliis': 'this',
+        'aud': 'and', 'aad': 'and', 'witli': 'with', 'wliich': 'which',
+        'fiom': 'from', 'fiieids': 'friends', 'tbat': 'that',
+        'wlien': 'when', 'tliey': 'they', 'liave': 'have',
+        'probf': 'proof', 'woifet': 'worst', 'wag': 'was',
+        'io': 'to', 'od': 'of', 'liis': 'his', 'lier': 'her'
+    }
+
 Approach:
 * Developed Python script (full_analyzer.py) which:
    * Recursively scaned OCR output directories
