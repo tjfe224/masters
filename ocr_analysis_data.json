@@ -1,0 +1,397 @@
+{
+  "files_analyzed": 67,
+  "total_words": 1444176,
+  "total_characters": 8133621,
+  "character_substitutions": {
+    "l \u2192 1": 262222,
+    "S \u2192 5": 46851,
+    "I \u2192 1": 32464,
+    "O \u2192 0": 24650,
+    "li \u2192 h": 23893,
+    "rn \u2192 m": 10067,
+    "tl \u2192 d": 7197,
+    "nn \u2192 m": 5780,
+    "cl \u2192 d": 5086,
+    "ii \u2192 u": 909,
+    "vv \u2192 w": 12,
+    "1 \u2192 I (uppercase)": 11,
+    "AI* \u2192 Mr.": 2
+  },
+  "common_word_errors": {
+    "tbe \u2192 the": 98,
+    "aud \u2192 and": 61,
+    "tlie \u2192 the": 35,
+    "aad \u2192 and": 28,
+    "ilie \u2192 the": 15,
+    "wag \u2192 was": 9,
+    "wliich \u2192 which": 3,
+    "witli \u2192 with": 3,
+    "tbat \u2192 that": 3,
+    "fiom \u2192 from": 2,
+    "loubted \u2192 doubted": 1,
+    "ruong \u2192 wrong": 1,
+    "tbserved \u2192 observed": 1,
+    "fiieids \u2192 friends": 1,
+    "woifet \u2192 worst": 1,
+    "probf \u2192 proof": 1,
+    "liad \u2192 had": 1,
+    "liis \u2192 his": 1
+  },
+  "suspicious_patterns": {
+    "non_dict_words": 643856,
+    "mixed_nums_letters": 3796,
+    "repeated_chars": 2166
+  },
+  "files_by_era": {
+    "Early 20th Century (1900-1949)": [
+      {
+        "filename": "ame19480607_ocr.txt",
+        "year": 1948,
+        "path": "G:\\2_KDNP_inprocess\\ame_19480607\\ame19480607_ocr.txt"
+      },
+      {
+        "filename": "crs1910080601_ocr.txt",
+        "year": 1910,
+        "path": "G:\\2_KDNP_inprocess\\crs_christian\\crs1910080601_ocr.txt"
+      },
+      {
+        "filename": "rsl1918110701_ocr.txt",
+        "year": 1918,
+        "path": "G:\\2_KDNP_inprocess\\rsl_russell\\rsl1918110701_ocr.txt"
+      },
+      {
+        "filename": "spe1930120401_ocr.txt",
+        "year": 1930,
+        "path": "G:\\2_KDNP_inprocess\\spe\\spe1930120401\\spe1930120401_ocr.txt"
+      },
+      {
+        "filename": "spn1909030501_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\spe\\spn1909030501\\spn1909030501_ocr.txt"
+      },
+      {
+        "filename": "arg1926020601_ocr.txt",
+        "year": 1926,
+        "path": "G:\\2_KDNP_inprocess\\arg_argus\\arg1928020601\\arg1926020601_ocr.txt"
+      },
+      {
+        "filename": "arg1928021301_ocr.txt",
+        "year": 1928,
+        "path": "G:\\2_KDNP_inprocess\\arg_argus\\arg1928021301\\arg1928021301_ocr.txt"
+      },
+      {
+        "filename": "hen190110501_ocr.txt",
+        "year": 1901,
+        "path": "G:\\2_KDNP_inprocess\\hen_19090108-19091231\\1909110501\\hen190110501_ocr.txt"
+      },
+      {
+        "filename": "hen1909111201_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\hen_19090108-19091231\\1909111201\\hen1909111201_ocr.txt"
+      },
+      {
+        "filename": "hen1909111901_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\hen_19090108-19091231\\1909111901\\hen1909111901_ocr.txt"
+      },
+      {
+        "filename": "hen1909112601_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\hen_19090108-19091231\\1909112601\\hen1909112601_ocr.txt"
+      },
+      {
+        "filename": "hen1909120301_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\hen_19090108-19091231\\1909120301\\hen1909120301_ocr.txt"
+      },
+      {
+        "filename": "hen1909121001_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\hen_19090108-19091231\\1909121001\\hen1909121001_ocr.txt"
+      },
+      {
+        "filename": "hen1909121701_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\hen_19090108-19091231\\1909121701\\hen1909121701_ocr.txt"
+      },
+      {
+        "filename": "hen1909122401_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\hen_19090108-19091231\\1909122401\\hen1909122401_ocr.txt"
+      },
+      {
+        "filename": "hen1909102901_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\hen_19090108-19091231\\1_finished\\1909102901\\1909102901_150dpi\\hen1909102901_ocr.txt"
+      },
+      {
+        "filename": "hen1909102201_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\hen_19090108-19091231\\1_finished\\1909102201\\1909102201_150dpi\\hen1909102201_ocr.txt"
+      },
+      {
+        "filename": "hen1909100801_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\hen_19090108-19091231\\1_finished\\1909100801\\1909100801_150dpi\\hen1909100801_ocr.txt"
+      },
+      {
+        "filename": "hen1909100101_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\hen_19090108-19091231\\1_finished\\1909100101\\hen1909100101_08\\hen1909100101_ocr.txt"
+      },
+      {
+        "filename": "hen1909092401_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\hen_19090108-19091231\\1_finished\\1909092401\\1909092401_150dpi\\hen1909092401_ocr.txt"
+      },
+      {
+        "filename": "hen1909091701_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\hen_19090108-19091231\\1_finished\\1909091701\\1909091701_150dpi\\hen1909091701_ocr.txt"
+      },
+      {
+        "filename": "hen19091001_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\hen_19090108-19091231\\1_finished\\1909091001\\1909091001_150dpi\\hen19091001_ocr.txt"
+      },
+      {
+        "filename": "hen1909082701_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\hen_19090108-19091231\\1_finished\\1909082701\\1909082701_150dpi\\hen1909082701_ocr.txt"
+      },
+      {
+        "filename": "hen1909082001_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\hen_19090108-19091231\\1_finished\\1909082001\\1909082001_150dpi\\hen1909082001_ocr.txt"
+      },
+      {
+        "filename": "hen1909081301_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\hen_19090108-19091231\\1_finished\\1909081301\\1909081301_150dpi\\hen1909081301_ocr.txt"
+      },
+      {
+        "filename": "hen1909080601_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\hen_19090108-19091231\\1_finished\\1909080601\\1909080601_150dpi\\hen1909080601_ocr.txt"
+      },
+      {
+        "filename": "hen1909073001_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\hen_19090108-19091231\\1_finished\\1909073001\\1909073001_150dpi\\hen1909073001_ocr.txt"
+      },
+      {
+        "filename": "hen1909072301_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\hen_19090108-19091231\\1_finished\\1909072301\\1909072301_150dpi\\hen1909072301_ocr.txt"
+      },
+      {
+        "filename": "hen1909071601_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\hen_19090108-19091231\\1_finished\\1909071601\\1909071601_150dpi\\hen1909071601_ocr.txt"
+      },
+      {
+        "filename": "hen1909070901_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\hen_19090108-19091231\\1_finished\\1909070901\\1909070901_150dpi\\hen1909070901_ocr.txt"
+      },
+      {
+        "filename": "hen1909070201_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\hen_19090108-19091231\\1_finished\\1909070201\\1909070201_150dpi\\hen1909070201_ocr.txt"
+      },
+      {
+        "filename": "hen1909062501_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\hen_19090108-19091231\\1_finished\\1909062501\\1909062501_150dpi\\hen1909062501_ocr.txt"
+      },
+      {
+        "filename": "hen1909061801_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\hen_19090108-19091231\\1_finished\\1909061801\\1909061801_150dpi\\hen1909061801_ocr.txt"
+      },
+      {
+        "filename": "hen1909061101_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\hen_19090108-19091231\\1_finished\\1909061101\\1909061101_150dpi\\hen1909061101_ocr.txt"
+      },
+      {
+        "filename": "hen1909060501_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\hen_19090108-19091231\\1_finished\\1909060501\\1909060501_150dpi\\hen1909060501_ocr.txt"
+      },
+      {
+        "filename": "hen1909052801_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\hen_19090108-19091231\\1_finished\\1909052801\\1909052801_150dpi\\hen1909052801_ocr.txt"
+      },
+      {
+        "filename": "hen1909052101_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\hen_19090108-19091231\\1_finished\\1909052101\\1909052101_150dpi\\hen1909052101_ocr.txt"
+      },
+      {
+        "filename": "hen1909051401_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\hen_19090108-19091231\\1_finished\\1909051401\\1909051401_150dpi\\hen1909051401_ocr.txt"
+      },
+      {
+        "filename": "hen1909050701_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\hen_19090108-19091231\\1_finished\\1909050701\\1909050701_150dpi\\hen1909050701_ocr.txt"
+      },
+      {
+        "filename": "hen1909043001_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\hen_19090108-19091231\\1_finished\\1909043001\\1909043001_150dpi\\hen1909043001_ocr.txt"
+      },
+      {
+        "filename": "hen1909042301_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\hen_19090108-19091231\\1_finished\\1909042301\\1909042301_150dpi\\hen1909042301_ocr.txt"
+      },
+      {
+        "filename": "hen1909040901_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\hen_19090108-19091231\\1_finished\\1909040901\\1909040901_150dpi\\hen1909040901_ocr.txt"
+      },
+      {
+        "filename": "hen1909040201_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\hen_19090108-19091231\\1_finished\\1909040201\\1909040201_150dpi\\hen1909040201_ocr.txt"
+      },
+      {
+        "filename": "hen1909032601_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\hen_19090108-19091231\\1_finished\\1909032601\\1909032601_150dpi\\hen1909032601_ocr.txt"
+      },
+      {
+        "filename": "hen1909031901_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\hen_19090108-19091231\\1_finished\\1909031901\\1909031901_150dpi\\hen1909031901_ocr.txt"
+      },
+      {
+        "filename": "hen1909031201_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\hen_19090108-19091231\\1_finished\\1909031201\\1909031201_150dpi\\hen1909031201_ocr.txt"
+      },
+      {
+        "filename": "hen1909030501_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\hen_19090108-19091231\\1_finished\\1909030501\\1909030501_150dpi\\hen1909030501_ocr.txt"
+      },
+      {
+        "filename": "hen1909022601_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\hen_19090108-19091231\\1_finished\\1909022601\\hen1909022601_150dpi\\hen1909022601_ocr.txt"
+      },
+      {
+        "filename": "hen1909021201_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\hen_19090108-19091231\\1_finished\\1909021201\\hen1909021201_300dpi\\hen1909021201_ocr.txt"
+      },
+      {
+        "filename": "bee1903120301_ocr.txt",
+        "year": 1903,
+        "path": "G:\\2_KDNP_inprocess\\bee\\bee1903120301\\bee1903120301_ocr.txt"
+      },
+      {
+        "filename": "bee1910041401_ocr.txt",
+        "year": 1910,
+        "path": "G:\\2_KDNP_inprocess\\bee\\bee1910041401\\bee1910041401_ocr.txt"
+      },
+      {
+        "filename": "hen1909101501_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\1_reprocess\\hen1909101501\\1909101501_150dpi\\hen1909101501_ocr.txt"
+      },
+      {
+        "filename": "1909090201_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\1_reprocess\\hen1909090201\\1909090201_150dpi\\1909090201_ocr.txt"
+      },
+      {
+        "filename": "hen1909041601_ocr.txt",
+        "year": 1909,
+        "path": "G:\\2_KDNP_inprocess\\1_reprocess\\hen1909041601\\1909041601_150dpi\\hen1909041601_ocr.txt"
+      }
+    ],
+    "Late 19th Century (1850-1899)": [
+      {
+        "filename": "had1890062001_ocr.txt",
+        "year": 1890,
+        "path": "G:\\2_KDNP_inprocess\\had1890062001_20\\had1890062001_ocr.txt"
+      },
+      {
+        "filename": "dac1854030101_ocr.txt",
+        "year": 1854,
+        "path": "G:\\2_KDNP_inprocess\\dac_daily\\dac1854030101_ocr.txt"
+      },
+      {
+        "filename": "dan1880041501_ocr.txt",
+        "year": 1880,
+        "path": "G:\\2_KDNP_inprocess\\dan_danville\\dan1880041501_ocr.txt"
+      },
+      {
+        "filename": "ked1877091401_ocr.txt",
+        "year": 1877,
+        "path": "G:\\2_KDNP_inprocess\\ked_ky-ad\\ked1877091401_ocr.txt"
+      },
+      {
+        "filename": "cig1878071901_ocr.txt",
+        "year": 1878,
+        "path": "G:\\2_KDNP_inprocess\\cig_Coving\\cig1878071901\\cig1878071901_ocr.txt"
+      },
+      {
+        "filename": "had1890062001_ocr.txt",
+        "year": 1890,
+        "path": "G:\\2_KDNP_inprocess\\had1890062001_20\\had\\had\\had1890062001_ocr.txt"
+      },
+      {
+        "filename": "ech1886122501_ocr.txt",
+        "year": 1886,
+        "path": "G:\\2_KDNP_inprocess\\ech\\ech1886122501\\ech1886122501_ocr.txt"
+      },
+      {
+        "filename": "ech1887012301_ocr.txt",
+        "year": 1887,
+        "path": "G:\\2_KDNP_inprocess\\ech\\ech1887012301\\ech1887012301_ocr.txt"
+      },
+      {
+        "filename": "tit1885070001_ocr.txt",
+        "year": 1885,
+        "path": "G:\\2_KDNP_inprocess\\1_reprocess\\tit_1885070001_2\\tit1885070001_ocr.txt"
+      },
+      {
+        "filename": "daa1896020901_ocr.txt",
+        "year": 1896,
+        "path": "G:\\2_KDNP_inprocess\\0_1_To ABBYY\\daa\\daa1896020901\\daa1896020901_ocr.txt"
+      }
+    ],
+    "Early 19th Century (1800-1849)": [
+      {
+        "filename": "kea1828012501_ocr.txt",
+        "year": 1828,
+        "path": "G:\\2_KDNP_inprocess\\kea\\kea1828012501_ocr.txt"
+      },
+      {
+        "filename": "clr1842091701_ocr.txt",
+        "year": 1842,
+        "path": "G:\\2_KDNP_inprocess\\clr_clarion\\clr1842091701\\clr1842091701_ocr.txt"
+      }
+    ],
+    "Mid-Late 20th Century (1950-1989)": [
+      {
+        "filename": "lvc1981052101_ocr.txt",
+        "year": 1981,
+        "path": "G:\\2_KDNP_inprocess\\lvc\\lvc1981052101_ocr.txt"
+      }
+    ]
+  },
+  "statistics": {
+    "avg_words_per_file": 21554.86567164179,
+    "avg_chars_per_file": 121397.32835820895,
+    "total_error_patterns": 265,
+    "total_char_substitutions": 419144,
+    "total_suspicious_patterns": 649818
+  }
+}

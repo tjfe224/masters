@@ -1,0 +1,69 @@
+================================================================================
+OCR ERROR ANALYSIS REPORT
+University of Kentucky Historical Newspaper Digitization Project
+Generated: 2025-12-11 22:37:42
+================================================================================
+
+SUMMARY STATISTICS
+--------------------------------------------------------------------------------
+Total files analyzed: 67
+Total words processed: 1,444,176
+Total characters: 8,133,621
+Average words per file: 21554.9
+Total error patterns found: 265
+Total character substitutions: 419,144
+
+FILES BY HISTORICAL ERA
+--------------------------------------------------------------------------------
+Early 19th Century (1800-1849): 2 files
+Early 20th Century (1900-1949): 54 files
+Late 19th Century (1850-1899): 10 files
+Mid-Late 20th Century (1950-1989): 1 files
+
+TOP 50 COMMON WORD-LEVEL OCR ERRORS
+--------------------------------------------------------------------------------
+Error Pattern                        Frequency
+--------------------------------------------------------------------------------
+tbe → the                                   98
+aud → and                                   61
+tlie → the                                  35
+aad → and                                   28
+ilie → the                                  15
+wag → was                                    9
+wliich → which                               3
+witli → with                                 3
+tbat → that                                  3
+fiom → from                                  2
+loubted → doubted                            1
+ruong → wrong                                1
+tbserved → observed                          1
+fiieids → friends                            1
+woifet → worst                               1
+probf → proof                                1
+liad → had                                   1
+liis → his                                   1
+
+CHARACTER SUBSTITUTION PATTERNS
+--------------------------------------------------------------------------------
+Pattern                              Frequency
+--------------------------------------------------------------------------------
+l → 1                                  262,222
+S → 5                                   46,851
+I → 1                                   32,464
+O → 0                                   24,650
+li → h                                  23,893
+rn → m                                  10,067
+tl → d                                   7,197
+nn → m                                   5,780
+cl → d                                   5,086
+ii → u                                     909
+vv → w                                      12
+1 → I (uppercase)                           11
+AI* → Mr.                                    2
+
+SUSPICIOUS PATTERN COUNTS
+--------------------------------------------------------------------------------
+mixed_nums_letters                       3,796
+non_dict_words                         643,856
+repeated_chars                           2,166
+
