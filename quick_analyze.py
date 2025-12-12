@@ -1,6 +1,7 @@
 """
-QUICK OCR Error Analyzer - Get Results in Minutes
-Run this first to get immediate statistics from a sample of files
+QUICK OCR Error Analyzer - Get Results in seconds
+Run this first to get immediate statistics from a select number of sample of files
+
 """
 
 import os
@@ -9,13 +10,13 @@ from collections import Counter
 from pathlib import Path
 
 def quick_analyze():
-    """Quick analysis of OCR files - returns results immediately"""
-    
+    #Quick analysis of OCR files - returns results immediately
+    files_to_analyze = 20
     base_dir = Path(r"G:\2_KDNP_inprocess")
     
     # Find OCR files
     print("Searching for OCR files...")
-    ocr_files = list(base_dir.glob('**/*_ocr.txt'))[:20]  # Analyze first 20 files
+    ocr_files = list(base_dir.glob('**/*_ocr.txt'))[:files_to_analyze]  # Analyze first 20 files
     
     if not ocr_files:
         print("No OCR files found! Check the directory path.")
@@ -62,26 +63,26 @@ def quick_analyze():
     
     # Print results
     print("=" * 70)
-    print("QUICK OCR ERROR ANALYSIS RESULTS")
+    print("Quick OCR Error Analysis Results")
     print("=" * 70)
     print(f"\nFiles analyzed: {len(ocr_files)}")
     print(f"Total words scanned: {total_words:,}")
     print()
     
-    print("TOP 20 COMMON WORD ERRORS:")
+    print("Top 20 Common Word Errors:")
     print("-" * 70)
     for error, count in word_errors.most_common(20):
         print(f"  {error:<35} {count:>6} occurrences")
     
     print("\n")
-    print("CHARACTER-LEVEL ERROR PATTERNS:")
+    print("Character-Level Error Patterns:")
     print("-" * 70)
     for pattern, count in char_errors.most_common():
         if count > 0:
             print(f"  {pattern:<35} {count:>6} instances")
     
     print("\n" + "=" * 70)
-    print("ERROR RATE ESTIMATE:")
+    print("Error Rate Estimate:")
     total_errors = sum(word_errors.values())
     if total_words > 0:
         error_rate = (total_errors / total_words) * 100
@@ -89,7 +90,7 @@ def quick_analyze():
         print(f"  Error rate (minimum): {error_rate:.2f}%")
         print(f"  (Actual rate likely 3-5x higher including unknown errors)")
     
-    print("\n✓ Quick analysis complete!")
+    print("\nQuick analysis complete!")
     print("  Run the full analyzer script for comprehensive results.")
     print("=" * 70)
 
