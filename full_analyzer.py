@@ -38,12 +38,29 @@ class OCRErrorAnalyzer:
     def load_common_words(self):
         """Load common English words for validation"""
         # Top 10,000 most common English words
-        common_words_text = """the of and to a in is it you that he was for on are with as I his they be at one have this from or had by hot word but what some we can out other were all there when up use your how said an each she which do their time if will way about many then them write would like so these her long make thing see him two has look more day could go come did number sound no most people my over know water than call who oil its now find he may down side been now any new work part take get place made live where after back little only round man year came show every good me give our under name very through just form sentence great think say help low line differ turn cause much mean before move right boy old too same tell does set three want air well also play small end put home read hand port large spell add even land here must big high such follow act why ask men change went light kind off need house picture try us again animal point mother world near build self earth father any new work part take"""
+        common_words_text = """
+            the of and to a in is it you that he was for on are with as 
+            I his they be at one have this from or had by hot word but 
+            what some we can out other were all there when up use your 
+            how said an each she which do their time if will way about 
+            many then them write would like so these her long make thing 
+            see him two has look more day could go come did number sound 
+            no most people my over know water than call who oil its now 
+            find he may down side been now any new work part take get 
+            place made live where after back little only round man year 
+            came show every good me give our under name very through 
+            just form sentence great think say help low line differ turn 
+            cause much mean before move right boy old too same tell does 
+            set three want air well also play small end put home read hand 
+            port large spell add even land here must big high such follow 
+            act why ask men change went light kind off need house picture 
+            try us again animal point mother world near build self earth 
+            father any new work part take"""
         
         self.common_words = set(common_words_text.lower().split())
     
     def extract_year_from_filename(self, filename):
-        """Extract year from filename like 'kea1828012501_ocr.txt'"""
+        #Extract year from filename like 'kea1828012501_ocr.txt'
         match = re.search(r'(\d{4})', filename)
         if match:
             return int(match.group(1))
@@ -73,37 +90,12 @@ class OCRErrorAnalyzer:
                 
                 # Common specific errors
                 common_errors = {
-                    'tlie': 'the',
-                    'ilie': 'the',
-                    'tbe': 'the',
-                    'tbat': 'that',
-                    'aud': 'and',
-                    'aad': 'and',
-                    'fiom': 'from',
-                    'witli': 'with',
-                    'wliich': 'which',
-                    'wlien': 'when',
-                    'tliis': 'this',
-                    'wliite': 'white',
-                    'tliey': 'they',
-                    'tliese': 'these',
-                    'tliose': 'those',
-                    'tlie': 'the',
-                    'liis': 'his',
-                    'lier': 'her',
-                    'liave': 'have',
-                    'liad': 'had',
-                    'fiieids': 'friends',
-                    'firiend': 'friend',
-                    'tbserved': 'observed',
-                    'loubted': 'doubted',
-                    'probf': 'proof',
-                    'woifet': 'worst',
-                    'ruong': 'wrong',
-                    'wag': 'was',
-                    'io': 'to',
-                    'al': 'at',
-                    'od': 'of'
+                    'tlie': 'the', 'ilie': 'the', 'tbe': 'the', 'tliis': 'this',
+                    'aud': 'and', 'aad': 'and', 'witli': 'with', 'wliich': 'which',
+                    'fiom': 'from', 'fiieids': 'friends', 'tbat': 'that',
+                    'wlien': 'when', 'tliey': 'they', 'liave': 'have',
+                    'probf': 'proof', 'woifet': 'worst', 'wag': 'was',
+                    'io': 'to', 'od': 'of', 'liis': 'his', 'lier': 'her'
                 }
                 
                 if word in common_errors:
@@ -172,7 +164,7 @@ class OCRErrorAnalyzer:
             return False
     
     def scan_directory(self, max_files=None):
-        """Scan directory for OCR files"""
+        #Scan directory for OCR files
         print(f"Scanning directory: {self.base_directory}")
         ocr_files = list(self.base_directory.glob('**/*_ocr.txt'))
         
@@ -189,7 +181,7 @@ class OCRErrorAnalyzer:
         print(f"Analysis complete! Processed {self.results['files_analyzed']} files")
     
     def calculate_statistics(self):
-        """Calculate summary statistics"""
+        #Calculate summary statistics
         self.results['statistics'] = {
             'avg_words_per_file': self.results['total_words'] / max(self.results['files_analyzed'], 1),
             'avg_chars_per_file': self.results['total_characters'] / max(self.results['files_analyzed'], 1),
@@ -220,7 +212,7 @@ class OCRErrorAnalyzer:
             f.write(f"Total character substitutions: {self.results['statistics']['total_char_substitutions']:,}\n\n")
             
             # Files by Era
-            f.write("FILES BY HISTORICAL ERA\n")
+            f.write("Files By Historical Era\n")
             f.write("-" * 80 + "\n")
             for era in sorted(self.results['files_by_era'].keys()):
                 files = self.results['files_by_era'][era]
@@ -228,7 +220,7 @@ class OCRErrorAnalyzer:
             f.write("\n")
             
             # Common Word Errors (Top 50)
-            f.write("TOP 50 COMMON WORD-LEVEL OCR ERRORS\n")
+            f.write("Top 50 Common Word-Level OCR Errors\n")
             f.write("-" * 80 + "\n")
             f.write(f"{'Error Pattern':<30} {'Frequency':>15}\n")
             f.write("-" * 80 + "\n")
@@ -237,7 +229,7 @@ class OCRErrorAnalyzer:
             f.write("\n")
             
             # Character Substitution Patterns
-            f.write("CHARACTER SUBSTITUTION PATTERNS\n")
+            f.write("Character Substitution Patterns\n")
             f.write("-" * 80 + "\n")
             f.write(f"{'Pattern':<30} {'Frequency':>15}\n")
             f.write("-" * 80 + "\n")
@@ -246,7 +238,7 @@ class OCRErrorAnalyzer:
             f.write("\n")
             
             # Suspicious Patterns
-            f.write("SUSPICIOUS PATTERN COUNTS\n")
+            f.write("Suspicious Pattern Counts\n")
             f.write("-" * 80 + "\n")
             for pattern, count in sorted(self.results['suspicious_patterns'].items()):
                 f.write(f"{pattern:<30} {count:>15,}\n")
@@ -281,7 +273,7 @@ def main():
     MAX_FILES = None  # Set to a number to limit files, or None for all files
     
     print("=" * 80)
-    print("OCR ERROR PATTERN ANALYZER")
+    print("OCR Error Pattern Analyzer")
     print("University of Kentucky Historical Newspaper Digitization Project")
     print("=" * 80)
     print()
@@ -298,15 +290,15 @@ def main():
     analyzer.export_json('ocr_analysis_data.json')
     
     print("\n" + "=" * 80)
-    print("ANALYSIS COMPLETE!")
+    print("Analysis Complete!")
     print("=" * 80)
     print("\nOutputs generated:")
     print("  1. ocr_analysis_report.txt - Human-readable detailed report")
     print("  2. ocr_analysis_data.json - Machine-readable data for further processing")
     print("\nNext steps:")
-    print("  - Review the report to identify top error patterns")
-    print("  - Use the JSON data for building correction algorithms")
-    print("  - Create visualizations of error frequencies by era")
+    print("  * Review the report to identify top error patterns")
+    print("  * Use the JSON data for building correction algorithms")
+    print("  * Create visualizations of error frequencies by era")
     print()
 
 
